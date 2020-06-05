@@ -40,6 +40,7 @@
     </RelativeLayout>
 
     <LinearLayout
+        android:id="@+id/tools"
         android:layout_width="match_parent"
         android:layout_height="36dp"
         android:layout_margin="8dp"
@@ -72,6 +73,39 @@
             android:layout_weight="1"/>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_below="@id/tools"
+        android:orientation="horizontal">
+        <View
+            android:layout_gravity="left|center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_weight="2"
+            android:layout_marginRight="4dp"
+            android:background="@color/color_separator"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            fontPath="fonts/PIXELADE.TTF"
+            android:text="@string/latest_mod"
+            tools:ignore="MissingPrefix" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="4dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@color/color_separator"/>
+    </LinearLayout>
+
 
 
 </RelativeLayout>
