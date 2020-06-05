@@ -6,5 +6,8 @@
 
     <color name="color_text_title">#e4ff00</color>
     <color name="color_separator">#84929b</color>
+    <color name="color_progress">#19fd9f</color>
+    <color name="color_install_button">#1d83b5</color>
+    <color name="grey">#e2e2e2</color>
     <color name="white">#ffff</color>
 </resources>

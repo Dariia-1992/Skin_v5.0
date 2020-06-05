@@ -37,6 +37,8 @@ dependencies {
     // Calligraphy (custom fonts)
     implementation 'io.github.inflationx:calligraphy3:3.1.1'
     implementation 'io.github.inflationx:viewpump:2.0.3'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
 
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
 }
